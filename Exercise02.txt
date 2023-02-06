@@ -1,0 +1,4 @@
+Exercise 2
+
+1.The program starts by setting the recursion upper limit to 20,000. The first function (func1) takes in an array and the low and high values of the array, for example arr[0] = low value (probabily and integer). It then checks if low is less than high if that is true it calls upon function 2 (func2) and saves the result from feeding in the array, low and high. It then calls upon itself 2 times once where the result plus 1 is fed into the high spot and once where the result plus 1 into the low spot.
+The second function takes in an array and two values one being a lower number and one that is a hih number.
