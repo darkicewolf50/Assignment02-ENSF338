@@ -7,15 +7,14 @@ Exersize 1
 
 3.This python function is makes calculated the nth fibonacci number using recursion
 
-4.I think this is an example of divide and conquer alogrithm because it breaks the problem down into simpler calcuations
+4.This is an example of divide and conquer alogrithm because it breaks the problem down into simpler calcuations
 
-5. The Time complexities of the problem are O(n) or O(6)
+5. The time complexity of the problem are O(n^2)
 
 6.In Python File ex1.3.py
-ChatGPT
 
-7.More ChatGPT
+7.The complexity of the modified program is O(n)
 
 8.In Python File ex1.5.py 
 
-9.The plot privides a very accurate and filled in with time version the the time complexity calculated. It is clear to understand what happened in the plot along with seeing outliers of the code. Meanwhile the one calcuated is gives a general rule as to what the time will take, not considering the small outliers or the randomness of memory usage on systems.
+9.The plot privides a very accurate and filled in with time version the the time complexity calculated. It is clear to understand what happened in the plot along with seeing outliers of the code. Meanwhile the one calcuated is gives a general rule as to what the time will take, not considering the small outliers or the randomness of memory usage on a system. The two were as expected and the calcuated and run timed would create similar graphs, the OnComplexity graph could have been optimized further by storing the calculated numbers between function calls or stored externally in system memory (SSD or HHD), but the difference between the two are enormous as the program continues.
