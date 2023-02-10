@@ -4,4 +4,10 @@ Exercise 2
 
 To put it simply, the code carries out the QuickSort algorithm, which is a divide-and-conquer tactic that orders an array by picking a pivot and breaking down the elements into two separate lists again and again, and then sorting the subsets systematically. The time complexity of QuickSort is usually O(nlogn) but can reach O(n^2) in the worst case.
 
-2.
+2.In pyhon file ex2.2.py
+
+3.The timing results are fairly accurate being on average between the n^2 case and the nlogn case, but is not always consistently a line but differentiates with each run/
+
+4.The time complexity of the code cannot be imporved as the worst, best and average case of quick sort is nlogn no matter the implementation, it can have a efficiency increase, this improves performance only when there is low system memory
+
+5.What do you want from me? what is your secret?

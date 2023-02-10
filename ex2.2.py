@@ -1,5 +1,8 @@
 import json
 import timeit
+import matplotlib.pyplot as plt
+import sys
+sys.setrecursionlimit(20000)
 
 def func1(arr, low, high):
     if low < high:
@@ -23,15 +26,21 @@ def func2(array, start, end):
     array[start], array[high] = array[high], array[start]
     return high
 
-with open("ex2.json", "r") as file:
-    data = json.load(file)
+if __name__ == "__main__":
+    with open("ex2.json", "r") as f:
+        data = json.load(f)
 
-timing_results = []
-for input_data in data:
-    start = timeit.default_timer()
-    func1(input_data, 0, len(input_data) - 1)
-    end = timeit.default_timer()
-    timing_results.append(end - start)
+    x = []
+    y = []
+    for input_data in data:
+        time = timeit.timeit(lambda: func1(input_data, 0, len(input_data) - 1), number=1)
+        x.append(len(input_data))
+        y.append(time)
 
-# Plot the timing results
+    plt.plot(x, y, 'ro')
+    plt.xlabel('Input Size')
+    plt.ylabel('Time (seconds)')
+    plt.title('QuickSort Timing Results')
+
+    plt.show()
 
