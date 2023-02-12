@@ -10,4 +10,4 @@ To put it simply, the code carries out the QuickSort algorithm, which is a divid
 
 4.The time complexity of the code cannot be imporved as the worst, best and average case of quick sort is nlogn no matter the implementation, it can have a efficiency increase, this improves performance only when there is low system memory
 
-5.What do you want from me? what is your secret?
+5.It is not possible to improve the performance further because the given json file already has partially sorted arrays (segments are sorted) which makes the average time to take the better. Unfortunately the time complexity of the program is a quick sort wihch always has a complexity of nlogn which is quite quick to begin with.
