@@ -1,0 +1,13 @@
+Exercise 2
+
+1.The code in this example contains two functions, func1 and func2, which implement the QuickSort algorithm on an array. The Python interpreter's recursion limit is increased to 20000 using sys.setrecursionlimit(20000) to ensure that the recursive functions can be called multiple times. func1 takes three parameters-the array, a lower index, and an upper index-and if the lower index is smaller than the upper, it calls func2 to find a pivot index that splits the list into two. It then recursively calls func1 on the two sublists. func2 also takes three parameters-the array, a start index and an end index-and sets the pivot value to the first element of the sublist. It has two pointers, low and high, which move towards each other and switch around any elements that are on the wrong side.The arrows point toward one another, exchanging elements that are on the wrong side of the point of reference, until they arrive at the last position of the pivot. Then, the procedure switches the pivot with the element at the highest point and produces the index of the pivot.
+
+To put it simply, the code carries out the QuickSort algorithm, which is a divide-and-conquer tactic that orders an array by picking a pivot and breaking down the elements into two separate lists again and again, and then sorting the subsets systematically. The time complexity of QuickSort is usually O(nlogn) but can reach O(n^2) in the worst case.
+
+2.In pyhon file ex2.2.py
+
+3.The timing results are fairly accurate being on average between the n^2 case and the nlogn case, but is not always consistently a line but differentiates with each run/
+
+4.The time complexity of the code cannot be imporved as the worst, best and average case of quick sort is nlogn no matter the implementation, it can have a efficiency increase, this improves performance only when there is low system memory
+
+5.It is not possible to improve the performance further because the given json file already has partially sorted arrays (segments are sorted) which makes the average time to take the better. Unfortunately the time complexity of the program is a quick sort wihch always has a complexity of nlogn which is quite quick to begin with.
